@@ -1,0 +1,155 @@
+body {
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+a{    
+    text-decoration: none;
+}
+header ul {
+    list-style: none;
+    margin-top: 36px;
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+    header ul {
+    list-style: none;
+    margin-top: 36px;
+    }
+}
+
+@media (min-width: 768px){
+
+    header ul {
+        list-style: none;
+        text-align: right;
+    }
+}
+
+header li {
+    display: inline;
+}
+
+header i {
+    padding: 6px 6px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    min-width: 32px;
+}
+
+header h1 {
+    color: #949598;
+    font-family: 'Butterfly Kids', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        text-align: left;
+    }
+} 
+
+header {
+    background-color: #26292e;
+}
+
+.hero {
+    background-color: #e7718b;
+    padding: 20px 0px;
+}
+
+.hero img {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.hero h2 {
+    font-family:'Lato', sans-serif;
+    color: white;
+}
+
+.hero p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 768px) {
+    .hero h2 {
+        margin-left: 20px;
+    }
+    .hero p {
+        margin-left: 20px;
+    }
+    .hero a {
+        margin-left: 20px;
+    }
+}
+
+.hero a {
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    background: rgb(105,105,105);
+    background: linear-gradient(180deg, rgba(105,105,105,1) 0%, rgba(62,62,62,1) 48%, rgba(44,43,43,1) 100%);
+}
+
+.content {
+    background-color: #f4f4f6;
+    border-bottom: solid 2px #e7718b;
+    padding: 30px 0;
+}
+
+.content h2 {
+    color: #717173;
+    margin-left: 2px;
+    padding-left: 3px;
+}
+
+.content p {
+    color: #ceced0;
+}
+.products {
+    padding: 30px 0px;
+}
+
+.magnifying img {
+    width: 90%;
+    margin: 10px 0px;
+}
+
+footer {
+    background-color: #222529;
+    padding-top: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+footer i {
+    padding: 6px 6px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    min-width: 32px;
+}
+
+footer ul {
+    list-style: none;
+    text-align: right;
+}
+
+footer li {
+    display: inline;
+}
+
+.fa-facebook-f {
+    padding-right: 11px;
+}
